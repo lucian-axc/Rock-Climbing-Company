@@ -9,22 +9,23 @@
 <body>
 
   <!-- NAVIGATION -->
-  <nav>
+  <nav class="header-nav">
     <div class="container flex space-between">
       <!-- BRANDING -->
-      <div class="flex align-center">
+      <div class="flex align-center brand">
         <a href="#">
-          <img alt="Carved Rock Fitness" src="img/carved-rock-logo.png">
+          <img class="logo" alt="Carved Rock Fitness" src="img/carved-rock-logo.png">
         </a>
       </div>
+
       <!-- SEARCH -->
       <div class="flex flex-one align-center">
         <div>
           <form>
-            <input aria-label="Search" placeholder="What can we help you find?" type="search">
-            <button type="submit">SEARCH</button>
+            <input class="search-box" aria-label="Search" placeholder="What can we help you find?" type="search">
+            <button class="search-button" type="submit">SEARCH</button>
           </form>
-          <ul class="flex space-between">
+          <ul class="flex space-between nav-list">
             <li><a href="#">Clothing</a></li>
             <li><a href="#">Footwear</a></li>
             <li><a href="#">Equipment</a></li>
@@ -32,16 +33,18 @@
             <li><a href="#">Trail Reviews</a></li>
           </ul>
         </div>
+
         <!-- PROFILE -->
-        <div class="flex align-center">
-          <div class="flex flex-column">
+        <div class="flex align-center profile">
+          <div class="flex flex-column account">
             John Doe <a href="#">Log Out</a>
           </div>
-          <div><img alt="John Doe" src="img/profile-pic.jpg"></div>
+          <div class="profile-pic"><img alt="John Doe" src="img/profile-pic.jpg"></div>
         </div>
       </div>
     </div>
   </nav>
+
 
     <!-- HERO -->
   <section>
@@ -54,6 +57,7 @@
 
   <!-- MAIN CONTAINER -->
   <div class="container">
+
 
     <!-- SALE BANNER -->
     <section>
@@ -68,6 +72,7 @@
       </div>
     </section>
 
+    
     <!-- CATEGORIES -->
     <section>
       <div>
@@ -108,6 +113,7 @@
       </div>
     </section>
 
+
     <!-- FULL BANNER -->
     <section>
       <div></div>
@@ -120,6 +126,7 @@
     </section>
 
   </div>
+
 
   <!-- FOOTER -->
   <footer>
@@ -182,5 +189,6 @@
 
     <div class="text-primary">&copy;Pluralsight 2018</div>
   </footer>
+
 </body>
 </html>
